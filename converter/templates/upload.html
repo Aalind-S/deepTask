@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Data Extraction</title>
+</head>
+<body>
+    <h1>PDF Data Extraction</h1>
+    
+    <form enctype="multipart/form-data" action="/extract/" method="post">
+        {% csrf_token %}
+        <input type="file" name = 'uploaded_file' /> 
+        
+        <button type="submit">Extract Data</button>
+    </form>
+</body>
+</html>
