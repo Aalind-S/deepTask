@@ -15,7 +15,7 @@ To develop it in Django I made a model and a form to deal with FILES.
 Whenever a file is uploaded, it is saved by the Django Backend.
 Afterwards if the file is valid then it is processed by script which has been modified a little bit and then the solution is rendered on a new page.
 
-#Set Up and Installation
+# Set Up and Installation
 
 Tesseract should be installed
 
