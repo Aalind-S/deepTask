@@ -16,6 +16,10 @@ Whenever a file is uploaded, it is saved by the Django Backend.
 Afterwards if the file is valid then it is processed by script which has been modified a little bit and then the solution is rendered on a new page.
 
 # Set Up and Installation
+Clone the repository 
+```
+git clone https://github.com/Aalind-S/deepTask
+```
 
 Tesseract should be installed
 
